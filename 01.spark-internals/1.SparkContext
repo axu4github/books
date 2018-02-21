@@ -1,0 +1,32 @@
+# 1. SparkContext
+
+## 1.1 spark-shell
+
+```bash
+> echo $JAVA_HOME
+/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home
+
+> cd /Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home
+> ll
+total 52144
+-rw-rw-r--   1 root  wheel      3244  9 14 17:50 COPYRIGHT
+-rw-rw-r--   1 root  wheel        40  9 14 17:50 LICENSE
+-rw-rw-r--   1 root  wheel       159  9 14 17:50 README.html
+-rwxrwxr-x   1 root  wheel     63933  9 14 13:48 THIRDPARTYLICENSEREADME-JAVAFX.txt
+-rw-rw-r--   1 root  wheel    145180  9 14 17:50 THIRDPARTYLICENSEREADME.txt
+drwxrwxr-x  46 root  wheel      1564  9 14 17:55 bin
+drwxrwxr-x   9 root  wheel       306  9 14 17:50 db
+drwxrwxr-x   9 root  wheel       306  9 14 17:50 include
+-rwxrwxr-x   1 root  wheel   5202879  9 14 13:48 javafx-src.zip
+drwxrwxr-x  10 root  wheel       340  9 14 17:52 jre
+drwxrwxr-x  14 root  wheel       476  9 14 17:52 lib
+drwxrwxr-x   5 root  wheel       170  9 14 17:50 man
+-rw-rw-r--   1 root  wheel       427  9 14 17:50 release
+-rw-rw-r--   1 root  wheel  21258665  9 14 17:50 src.zip
+
+> bin/jvisualvm
+```
+
+![](assets/markdown-img-paste-20180221215222654.png)
+
+> 我的电脑上已经启动了 Spark Standalone 模式（org.apache.spark.deploy.master.Master && org.apache.spark.deploy.worker.Worker）
